@@ -22,7 +22,7 @@ const JournalEntryPage = async ({params}) => {
             <Image
                 src={entry.moodImageUrl}
                 alt='Mood Visualization'
-                className='object-cover'
+                className='object-contain'
                 fill
                 priority
             />

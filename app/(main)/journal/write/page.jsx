@@ -125,7 +125,7 @@ const JournalEntry = () => {
         saveDraftFn({  title: "", content: "", mood: ""})
       }
       router.push(
-        `/collections/${actionResult.collectionId ? actionResult.id : "unorganised" }`
+        `/collection/${actionResult.collectionId ? actionResult.id : "unorganised" }`
       )
     };
     toast.success(`Entry ${isEditMode ? "updated" : "created" } successfully!`)
